@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TSN F1 Schedule</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      td {
+        padding: 0px 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🏎️ TSN F1 Schedule 🏁</h1>
+    <p>Next race weekend is {{ nextRaceWeekend }}.</p>
+    <a href="https://www.tsn.ca/2021-formula-one-racing-on-tsn-1.431562" target="_blank">Official TSN F1 Schedule</a>
+    {{#races}}
+    <h3>{{ city }}</h3>
+    <table>
+      <tbody>
+        {{#events}}
+
+        <tr>
+          <td>{{ name }}</td>
+          <td>{{ date }}</td>
+          <td>{{ time }}</td>
+          <td>{{ network }}</td>
+        </tr>
+        {{/events}}
+      </tbody>
+    </table>
+    {{/races}}
+    <br />
+
+    <p>
+      This website is not associated in any with TSN. It is a hobby project I created to make it easier to see the
+      upcoming F1 races on TSN.
+    </p>
+  </body>
+</html>
