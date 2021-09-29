@@ -1,0 +1,21 @@
+name: Build and Deploy
+on:
+  schedule:
+    - cron: 0 12 * * *
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@latest
+
+      - name: Install and Build 🔧
+        run: |
+          npm ci
+          node .
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@latest
+        with:
+          branch: gh-pages
+          folder: dist
