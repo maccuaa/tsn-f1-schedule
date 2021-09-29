@@ -10,7 +10,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "buld": "node index.mjs"
+    "build": "node index.mjs"
   },
   "dependencies": {},
   "devDependencies": {
