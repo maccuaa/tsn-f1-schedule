@@ -1,0 +1,140 @@
+[
+  {
+    "city": "Turkey",
+    "events": [
+      {
+        "name": "Practice",
+        "date": "Friday, October 1",
+        "time": "8:15am",
+        "network": "TBD"
+      },
+      {
+        "name": "Qualifying",
+        "date": "Saturday, October 2",
+        "time": "8:55am",
+        "network": "TBD"
+      },
+      {
+        "name": "Race",
+        "date": "Sunday, October 3",
+        "time": "8:05am",
+        "network": "TBD"
+      }
+    ]
+  },
+  {
+    "city": "United States",
+    "events": [
+      {
+        "name": "Practice",
+        "date": "Friday, October 22",
+        "time": "3:45pm",
+        "network": "TBD"
+      },
+      {
+        "name": "Qualifying",
+        "date": "Saturday, October 23",
+        "time": "4:55pm",
+        "network": "TBD"
+      },
+      {
+        "name": "Race",
+        "date": "Sunday, October 24",
+        "time": "3:05pm",
+        "network": "TBD"
+      }
+    ]
+  },
+  {
+    "city": "Mexico",
+    "events": [
+      {
+        "name": "Practice",
+        "date": "Friday, October 29",
+        "time": "3:45pm",
+        "network": "TBD"
+      },
+      {
+        "name": "Qualifying",
+        "date": "Saturday, October 30",
+        "time": "2:55pm",
+        "network": "TBD"
+      },
+      {
+        "name": "Race",
+        "date": "Sunday, October 31",
+        "time": "3:05pm",
+        "network": "TBD"
+      }
+    ]
+  },
+  {
+    "city": "Brazil",
+    "events": [
+      {
+        "name": "Practice",
+        "date": "Friday, November 5",
+        "time": "2:45pm",
+        "network": "TBD"
+      },
+      {
+        "name": "Qualifying",
+        "date": "Saturday, November 6",
+        "time": "1:55pm",
+        "network": "TBD"
+      },
+      {
+        "name": "Race",
+        "date": "Sunday, November 7",
+        "time": "12:05pm",
+        "network": "TBD"
+      }
+    ]
+  },
+  {
+    "city": "TBD",
+    "events": [
+      {
+        "name": "Practice",
+        "date": "Friday, November 19",
+        "time": "TBD",
+        "network": "TBD"
+      },
+      {
+        "name": "Qualifying",
+        "date": "Saturday, November 20",
+        "time": "TBD",
+        "network": "TBD"
+      },
+      {
+        "name": "Race",
+        "date": "Sunday, November 21",
+        "time": "TBD",
+        "network": "TBD"
+      }
+    ]
+  },
+  {
+    "city": "Saudi Arabia",
+    "events": [
+      {
+        "name": "Practice",
+        "date": "Friday, December 3",
+        "time": "10:45am",
+        "network": "TBD"
+      },
+      {
+        "name": "Qualifying",
+        "date": "Saturday, December 4",
+        "time": "10:55am",
+        "network": "TBD"
+      },
+      {
+        "name": "Race",
+        "date": "Sunday, December 5",
+        "time": "11:05am",
+        "network": "TBD"
+      }
+    ]
+  }
+]
